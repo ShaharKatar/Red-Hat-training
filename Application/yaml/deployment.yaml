@@ -25,7 +25,6 @@ spec:
           imagePullPolicy: IfNotPresent
           image: 'quay.io/shaharkatar/hello_world:v2'
 # Update with the image you build in part 1
-          image: 'quay.io/shaharkatar/hello_world:v1'
       restartPolicy: Always
       terminationGracePeriodSeconds: 30
   strategy:
