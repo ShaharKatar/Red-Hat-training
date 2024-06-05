@@ -23,6 +23,7 @@ spec:
             - containerPort: 8080
               protocol: TCP
           imagePullPolicy: IfNotPresent
+          image: 'quay.io/shaharkatar/eliran:v2'
 # Update with the image you build in part 1
           image: 'quay.io/shaharkatar/hello_world:v1'
       restartPolicy: Always
